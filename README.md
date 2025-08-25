@@ -29,3 +29,14 @@ A connection to a MongoDB database has been established using Mongoose. The data
 ### Server Setup:
 
 A basic server has been set up using Express.js. The server is configured to respond to GET requests to the root URL (/) and returns a message indicating that the server is ready.
+
+## API Integration:
+
+In this commit, API endpoints have been integrated to interact with the database. The following endpoints have been created:
+
+- GET /api/products: Retrieves a list of all products from the database
+- POST /api/products: Creates a new product in the database
+- PUT /api/products/:id: Updates an existing product in the database
+- DELETE /api/products/:id: Deletes a product from the database
+
+These endpoints are defined in the product.route.js file and are handled by the product.controller.js file.
