@@ -40,3 +40,23 @@ In this commit, API endpoints have been integrated to interact with the database
 - DELETE /api/products/:id: Deletes a product from the database
 
 These endpoints are defined in the product.route.js file and are handled by the product.controller.js file.
+
+## Frontend Setup with Chakra UI:
+
+In this commit, the frontend has been set up using React and Chakra UI. The following dependencies have been installed:
+
+- @chakra-ui/react: a popular UI component library for React
+- @emotion/react: a library for styling React components
+- @emotion/styled: a library for creating styled components
+- framer-motion: a library for animating React components
+- react: the React library
+- react-dom: the React DOM library
+- react-router-dom: a library for client-side routing in React
+
+The frontend code is located in the frontend folder and includes the following files:
+
+- index.html: the main HTML file for the frontend
+- main.jsx: the main entry point for the frontend code
+- App.jsx: the main application component
+
+The frontend is currently set up to render a basic UI using Chakra UI components.
