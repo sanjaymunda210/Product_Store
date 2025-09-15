@@ -60,3 +60,7 @@ The frontend code is located in the frontend folder and includes the following f
 - App.jsx: the main application component
 
 The frontend is currently set up to render a basic UI using Chakra UI components.
+
+## Navbar added
+
+In this commit, a Navbar component has been added to the project. The Navbar component is located in the `src/components/Navbar.jsx` file and provides a navigation bar for the application. The component includes a logo, a search bar, and a list of links to different pages in the application.
