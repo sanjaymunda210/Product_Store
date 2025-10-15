@@ -64,3 +64,11 @@ The frontend is currently set up to render a basic UI using Chakra UI components
 ## Navbar added
 
 In this commit, a Navbar component has been added to the project. The Navbar component is located in the `src/components/Navbar.jsx` file and provides a navigation bar for the application. The component includes a logo, a search bar, and a list of links to different pages in the application.
+
+## Added UI for Create Page
+
+In this commit, the UI for the create page has been added to the project. The create page is located in the src/pages/CreatePage.jsx file and provides a form for creating a new product in the database. The form includes name, price and image as input.
+
+## Added state management library Zustand with createProduct function
+
+In this commit, Zustand has been added as a state management library to the project. Zustand is a small, fast, and scalable state management library for React. It has been used to create a product store with a createProduct function in the src/store/product.js file. The createProduct function is responsible for creating a new product in the database and updating the product store state. The Zustand store is used to manage the state of the products in the application.
